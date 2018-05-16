@@ -1,0 +1,148 @@
+.dashboard {
+  height: 100%;
+  width: 100%;
+}
+
+.dashboard__panel {
+  position: fixed;
+  width: 50%;
+  height: 50%;
+  margin: 0;
+}
+
+.call-to-action {
+  border: 1em #06b050 solid;
+  box-sizing: border-box;
+}
+
+.call-to-action div {
+  color: #06b050;
+  font-size: 2.75em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.school-overview {
+  color: white;
+  background-color: #06b050;
+}
+
+.school-overview__score {
+  text-align: center;
+  font-size: 2.75em;
+  margin-top: 0.5em;
+}
+
+.school-overview__score-subtitle {
+  text-align: center;
+  margin-top: 0.75em;
+  font-size: 1.5em;
+  color: white;
+  font-style: italic;
+}
+
+.school-overview .logo {
+  height: 8em;
+  margin: 1em;
+}
+
+.dashboard__graph__title {
+  margin: 0.5em;
+  font-size: 2em;
+  position: absolute;
+  color: white;
+  bottom: 0;
+  left: 0;
+}
+
+.dashboard__graph {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.rating-panel__title {
+  height: 4.25vh;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-left: 1em;
+}
+
+.rating-panel__row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: normal;
+  height: 15.3vh;
+}
+
+.rating-panel__row:nth-of-type(2) {
+  background-color: #c00200;
+}
+
+.rating-panel__row:nth-of-type(3) {
+  background-color: #ffc003;
+}
+
+.rating-panel__row:nth-of-type(4) {
+  background-color: #06b050;
+}
+
+.rating-panel__row__item {
+  display: inline-block;
+  width: 33%;
+  font-size: 2.5em;
+}
+
+.rating-panel__row__item:first-of-type {
+  text-align: left;
+  padding-left: 0.25em;
+  flex-grow: 1;
+}
+
+.rating-panel__row__item:nth-of-type(2) {
+  text-align: center;
+  flex-grow: 2;
+}
+
+.rating-panel__row__item:nth-of-type(3) {
+  text-align: right;
+  padding-right: 0.25em;
+  flex-grow: 1;
+}
+
+.lt {
+  top: 0;
+  left: 0;
+}
+
+.rt {
+  top: 0;
+  right: 0;
+}
+
+.lb {
+  bottom: 0;
+  left: 0;
+}
+
+.rb {
+  bottom: 0;
+  right: 0;
+}
+
+.subtitle {
+  display: block;
+  width: 100%;
+  font-size: 0.4em;
+  margin-top: 0.2em;
+}
+
+.logo--br {
+  bottom: 0;
+  right: 0;
+  height: 15vh;
+}

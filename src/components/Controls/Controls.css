@@ -1,0 +1,11 @@
+.controls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 1em;
+}
+
+.controls__icon {
+  margin-left: 1em;
+  height: 3em;
+}

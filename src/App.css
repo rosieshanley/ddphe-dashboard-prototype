@@ -1,0 +1,108 @@
+.App {
+  /* text-align: center; */
+  overflow: hidden;
+}
+
+.App-logo {
+  height: 80px;
+  margin: 15px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+a {
+  text-decoration: none;
+}
+
+.centered {
+  text-align: center;
+}
+
+.header {
+  height: 10em;
+  margin-bottom: 3em;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.header__title {
+  font-size: 3em;
+  margin-left: 1em;
+}
+
+.header__logo {
+  height: 8em;
+  margin: 1em;
+}
+
+.content {
+  font-size: 2em;
+  color: white;
+  padding: 0em 2.5em;
+  margin-top: 1.5em;
+}
+
+.content > a {
+  color: #fbd303;
+}
+
+.content:first-of-type {
+  margin: 0;
+}
+
+.content__title {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 0.25em;
+}
+
+.content-container {
+  display: block;
+  margin: 2em auto 3em;
+  margin-left: 15%;
+  width: 70%;
+}
+
+.content-container__row {
+  margin-bottom: 1em;
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.content-container__row__text {
+  display: inline-block;
+  color: white;
+  font-size: 1em;
+}
+
+.content-container__row__image {
+  width: 200px;
+  min-width: 200px;
+  height: 100px;
+  margin-right: 0.5em;
+  text-align: center;
+}
+
+.content-container__row__image img {
+  max-width: 100%;
+  max-height: 100px;
+}
+
+@media only screen and (min-width: 1234px) {
+}
