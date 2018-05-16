@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Controls from "components/Controls";
 
 import logo from "assets/student.png";
 import good from "assets/good.png";
@@ -11,7 +12,9 @@ import "./Aqi.css";
 const Aqi = () => (
   <div className="aqi">
     <div className="header">
-      <img src={logo} alt="Denver Department of Public Health & Environment" />
+      <Link to="/learn-more">
+        <img src={logo} className="header__logo" alt="Student" />
+      </Link>
       <div className="header__title">What does "AQI" mean?</div>
     </div>
     <div className="content">
@@ -52,6 +55,7 @@ const Aqi = () => (
         </div>
       </div>
     </div>
+    <Controls />
   </div>
 );
 

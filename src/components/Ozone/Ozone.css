@@ -1,0 +1,35 @@
+.student {
+  background-color: rgba(51, 51, 153, 1);
+  width: 100%;
+  height: 100%;
+}
+
+.answer {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.answer__img {
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.action-container {
+}
+
+.action {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
+.action__button {
+  display: inline-block;
+  width: 45%;
+}
+
+.action__title {
+  color: white;
+  margin-top: 1em;
+  font-size: 2em;
+}
