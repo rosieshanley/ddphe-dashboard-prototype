@@ -9,6 +9,7 @@ import Home from "components/Home";
 import Dashboard from "components/Dashboard";
 import Student from "components/Student";
 import Parent from "components/Parent";
+import Help from "components/Help";
 import Faculty from "components/Faculty";
 import Aqi from "components/Aqi";
 import Pm from "components/Pm";
@@ -41,6 +42,7 @@ const App = () => (
           <Route exact path="/study/ozone" component={Ozone} />
           <Route exact path="/study/particulate-matter" component={Pm} />
           <Route exact path="/test" component={Test} />
+          <Route exact path="/parent/help" component={Help} />
         </Switch>
       </MuiThemeProvider>
     </BrowserRouter>
