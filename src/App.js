@@ -34,10 +34,10 @@ const App = () => (
         <Switch>
           <Route exact path="/" component={Dashboard} />
           <Route exact path="/learn-more" component={Home} />
-          <Route exact path="/student" component={Student} />
+          <Route exact path="/student" component={Study} />
           <Route exact path="/parent" component={Parent} />
           <Route exact path="/faculty" component={Faculty} />
-          <Route exact path="/study" component={Study} />
+          {/* <Route exact path="/study" component={Study} /> */}
           <Route exact path="/study/aqi" component={Aqi} />
           <Route exact path="/study/ozone" component={Ozone} />
           <Route exact path="/study/particulate-matter" component={Pm} />

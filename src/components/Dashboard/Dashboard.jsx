@@ -65,49 +65,6 @@ const Dashboard = () => (
         <div>Click to Learn More!</div>
       </div>
     </Link>
-    {/* <div className="header">
-      <img src={logo} alt="Denver Department of Public Health & Environment" />
-      <div className="header__title">What does "Dashboard" mean?</div>
-    </div>
-    <div className="content">
-      The Dashboard is a number that tells us how dirty the air is. Just like
-      the temperature is a number that tells us how cold or hot it is. The
-      Dashboard also uses colors to tell us if the air is too unhealthy to play
-      outside.
-      <div className="content-container">
-        <div className="content-container__row">
-          <div className="content-container__row__image">
-            <img src={good} alt="student" />
-          </div>
-          <div className="content-container__row__text">
-            When the Dashboard is Green, the air is clean!
-          </div>
-        </div>
-        <div className="content-container__row">
-          <div className="content-container__row__image">
-            <img src={medium} alt="parent" />
-          </div>
-          <div className="content-container__row__text">
-            When the Dashboard is Yellow, you should take it easy when you play
-            outside.
-          </div>
-        </div>
-        <div className="content-container__row">
-          <div className="content-container__row__image">
-            <img src={bad} />
-          </div>
-          <div className="content-container__row__text">
-            When the Dashboard is Red, you should not go outside to play.
-          </div>
-        </div>
-        <div className="content-container__row">
-          <div className="content-container__row__image" />
-          <div className="content-container__row__text">
-            Dirty air can make you feel sick!{" "}
-          </div>
-        </div>
-      </div>
-    </div> */}
   </div>
 );
 
